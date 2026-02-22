@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Document</title>
+    <style>
+    body {
+        background-color: rgb(68, 33, 23);
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    form {
+        background-color: rgb(151, 81, 48);
+        border-radius: 25px;
+        padding: 40px ;
+        padding-top: 40px ;
+        margin: 0 auto;
+        width: 700px;
+        text-align: center;
+        float: center;
+    }
+
+    h2 {
+        color: rgb(42, 130, 165);
+        font-size: 35px;
+    }
+
+    </style>
+</head>
+<body>
+
+    <form>
+
+        <h2>Intramurals Players:</h2>
+
+    <input type="button" py-click="player_list" value="View Player List">
+    <div id="output"></div>
+
+    </form>
+
+
+    <py-script src="main.py"></py-script>
+    
+</body>
+</html>
